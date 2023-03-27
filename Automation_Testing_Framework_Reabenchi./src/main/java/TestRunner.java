@@ -16,10 +16,10 @@ public class TestRunner {
         Thread.sleep(10000);
         chromeDriverManager.closeDriver();
 
-        WebDriverManager firefoxDriver = new WebDriverManager("FIREFOX");
-        firefoxDriver.getDriver().get("https://stackoverflow.com/questions/75709476/selenium-java-not-secure-data-displays-on-chrome-browser");
-        Thread.sleep(10000);
-        firefoxDriver.closeDriver();
+        //WebDriverManager firefoxDriver = new WebDriverManager("FIREFOX");
+        //firefoxDriver.getDriver().get("https://stackoverflow.com/questions/75709476/selenium-java-not-secure-data-displays-on-chrome-browser");
+        //Thread.sleep(10000);
+        //firefoxDriver.closeDriver();
     }
 }
 
