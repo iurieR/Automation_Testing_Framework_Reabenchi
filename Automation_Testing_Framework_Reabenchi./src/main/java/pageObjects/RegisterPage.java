@@ -30,4 +30,9 @@ public class RegisterPage extends Page {
         emailImput.sendKeys(email);
         passwordImput.sendKeys(password);
     }
+
+    public boolean allElementsAreDisplayds() {
+        return firstNameImput.isDisplayed() && lastNameImput.isDisplayed() && emailImput.isDisplayed() && passwordImput.isDisplayed() && privacyCheckBoxImput.isDisplayed() && continueButton.isDisplayed();
+
+    }
 }

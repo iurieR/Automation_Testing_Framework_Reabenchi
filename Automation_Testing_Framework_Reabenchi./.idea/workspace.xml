@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c20d9b-80ef-4358-a0b8-7fc343f9b920" name="Changes" comment="homework 17" />
+    <list default="true" id="77c20d9b-80ef-4358-a0b8-7fc343f9b920" name="Changes" comment="homework 17">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JunitPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JunitPractice">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestRunner" />
       <module name="Automation_Testing_Framework_Reabenchi." />
@@ -58,11 +64,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JunitPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitPractice.registerPageElementsAreDisplayd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="METHOD_NAME" value="registerPageElementsAreDisplayd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitPractice.verifyTheRigisterPageIsAccesible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="METHOD_NAME" value="verifyTheRigisterPageIsAccesible" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.JunitPractice" />
+        <item itemvalue="JUnit.JunitPractice.registerPageElementsAreDisplayd" />
+        <item itemvalue="JUnit.JunitPractice.verifyTheRigisterPageIsAccesible" />
         <item itemvalue="Application.TestRunner" />
         <item itemvalue="Application.TestRunner" />
       </list>
