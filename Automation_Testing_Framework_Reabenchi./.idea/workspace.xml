@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77c20d9b-80ef-4358-a0b8-7fc343f9b920" name="Changes" comment="homework 17">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JunitPractice.java" afterDir="false" />
+    <list default="true" id="77c20d9b-80ef-4358-a0b8-7fc343f9b920" name="Changes" comment="homework 19">
+      <change afterPath="$PROJECT_DIR$/src/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CucumberTestRuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/contextManagers/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/Register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/GeneralSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/GeneralSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -44,62 +51,118 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stepDefinitions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitPractice">
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+  <component name="RunManager" selected="Cucumber Java.Feature: Register">
+    <configuration name="Feature: Register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/Register.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Register" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Register Page URL is accessibel from Home Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/Register.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="NAME_FILTER" value="^Register Page URL is accessibel from Home Page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Register Page URL is accessibel from Home Page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register Page URL is accessibel from Home Page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Register page URL contains the following word &lt;keyword&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/Register.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="NAME_FILTER" value="^Register page URL contains the following word .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Register page URL contains the following word .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Register page URL contains the following word &lt;keyword&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: myAccount button is accessible" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/Register.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Automation_Testing_Framework_Reabenchi." />
+      <option name="NAME_FILTER" value="^myAccount button is accessible$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^myAccount button is accessible$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: myAccount button is accessible" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberTestRuner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_Testing_Framework_Reabenchi." />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
+      <option name="MAIN_CLASS_NAME" value="CucumberTestRuner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitPractice.registerPageElementsAreDisplayd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Testing_Framework_Reabenchi." />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
-      <option name="METHOD_NAME" value="registerPageElementsAreDisplayd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitPractice.verifyTheRigisterPageIsAccesible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Testing_Framework_Reabenchi." />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitPractice" />
-      <option name="METHOD_NAME" value="verifyTheRigisterPageIsAccesible" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JunitPractice" />
-        <item itemvalue="JUnit.JunitPractice.registerPageElementsAreDisplayd" />
-        <item itemvalue="JUnit.JunitPractice.verifyTheRigisterPageIsAccesible" />
-        <item itemvalue="Application.TestRunner" />
-        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Register" />
+        <item itemvalue="Cucumber Java.Scenario: Register page URL contains the following word &lt;keyword&gt;" />
+        <item itemvalue="Cucumber Java.Scenario: Register Page URL is accessibel from Home Page" />
+        <item itemvalue="JUnit.CucumberTestRuner" />
+        <item itemvalue="Cucumber Java.Scenario: myAccount button is accessible" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679920946971</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homework 18">
+      <created>1680177515610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680177515610</updated>
+    </task>
+    <task id="LOCAL-00010" summary="homework 19">
+      <created>1681052689899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681052689899</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +292,8 @@
     <MESSAGE value="homework 15" />
     <MESSAGE value="unstash" />
     <MESSAGE value="homework 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 17" />
+    <MESSAGE value="homework 18" />
+    <MESSAGE value="homework 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 19" />
   </component>
 </project>
