@@ -8,5 +8,12 @@ public class HomePage extends Page {
         super(driver);
     }
 
+    public void clickOnMyAccountBtn() {
+        myAccountButton.click();
+    }
+
+    public void clickOnRegisterBtn() {
+        registrationButton.click();
+    }
 
 }
